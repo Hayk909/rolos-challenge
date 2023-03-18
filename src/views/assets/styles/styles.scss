@@ -1,0 +1,28 @@
+h1 {
+	padding: 0 20px;
+}
+
+.post_wrapper {
+	padding: 0 20px;
+
+	&__item {
+		display: grid;
+		grid-template-columns: min-content 1fr;
+		grid-template-rows: repeat(2, auto);
+		gap: 8px;
+	
+		& + & {
+			margin-top: 12px;
+			padding-top: 12px;
+			border-top: 1px solid $grey;
+		}
+	
+		&__id {
+			grid-row: -1/1;
+		}
+	
+		&__title {
+			font-weight: 700;
+		}
+	}
+}

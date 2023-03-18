@@ -1,0 +1,8 @@
+{
+  "name": "Rolos Challenge",
+  "short_name": "Rolos Challenge",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#f3f3f3"
+}

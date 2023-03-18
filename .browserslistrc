@@ -1,0 +1,15 @@
+# https://github.com/browserslist/browserslist#configuring-for-different-environments
+#
+# [production] - to compile css in builds
+# [development] - to serve while developing
+# [featureSupport] - what we support for more complex features (e.g. WebUSB API)
+#
+# See https://github.com/browserslist/browserslist-useragent-regexp to generate
+# user-agent detection regexp with these configs.
+
+[production]
+Edge > 15
+Firefox > 55
+Chrome > 60
+Safari > 10
+Opera > 45
